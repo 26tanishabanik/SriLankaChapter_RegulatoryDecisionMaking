@@ -5,7 +5,7 @@ from langchain.vectorstores import FAISS
 from langchain.schema import Document
 from langchain.chains import RetrievalQA
 from langchain.llms import HuggingFacePipeline
-from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
+from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModelForSeq2SeqLM, pipeline
 from PIL import Image
 import os
 import time

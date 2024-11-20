@@ -18,7 +18,7 @@ st.set_page_config(
 
 # Sidebar Navigation
 with st.sidebar:
-    st.image("SriLankaChapterLogo.jpeg", use_container_width=True)
+    st.image("assets/SriLankaChapterLogo.jpeg", use_container_width=True)
     st.title("Sri Lanka Chapter Project")
     st.markdown("""
     **Navigate:**
@@ -97,4 +97,4 @@ elif page == "Chapter Details":
     This initiative is part of the Sri Lanka Chapter's efforts to leverage AI for solving local challenges.  
     By digitizing and enhancing access to archival records, we aim to revolutionize regulatory decision-making processes in critical industries.
     """)
-    st.image("SriLankaChapterLogo.jpeg", use_container_width=True)
+    st.image("assets/SriLankaChapterLogo.jpeg", use_container_width=True)
